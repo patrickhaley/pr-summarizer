@@ -17,7 +17,7 @@ inputs:
     required: false
     default: 'openai'
   model:
-    description: 'Model to use (e.g., gpt-4 for OpenAI or claude-3-sonnet-20240229 for Anthropic)'
+    description: 'Model to use (e.g., gpt-4 for OpenAI or claude-3-5-sonnet-20241022 for Anthropic)'
     required: false
     default: 'gpt-4'
 
