@@ -43,7 +43,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}
           model-provider: 'anthropic'
-          model: 'claude-3-sonnet-20240229'
+          model: 'claude-3-5-sonnet-20241022'
           # Optional: Use OpenAI instead
           # openai-api-key: ${{ secrets.OPENAI_API_KEY }}
 ```
